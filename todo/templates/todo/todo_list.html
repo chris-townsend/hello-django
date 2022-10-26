@@ -18,8 +18,20 @@
                 {% endif%}
                 <td>
                     <a>
+                        <a href = "/toggle/{{ item.id }}">
+                        <button>Toggle</button>
+                    </a>
+                </td>
+                <td>
+                    <a>
                         <a href = "/edit/{{ item.id }}">
                         <button>Edit</button>
+                    </a>
+                </td>
+                <td>
+                    <a>
+                        <a href = "/delete/{{ item.id }}">
+                        <button>Delete</button>
                     </a>
                 </td>
              </tr>
