@@ -19,7 +19,7 @@ if os.path.exists("env.py"):
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# Build paths /workspace/hello-django/__pycache__inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ct93-django-todo-app.herokuapp.com']
 
 
 # Application definition
